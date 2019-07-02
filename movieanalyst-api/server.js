@@ -8,8 +8,8 @@ console.log(rsaValidation());
 var jwtCheck = jwt({
   secret: rsaValidation(),
   algorithms: ['RS256'],
-  issuer: "https://dev-zxzga36g.auth0.com/",
-  audience: 'http://movieanalyst.com'
+  issuer: "https://YOUR-AUTH0-DOMAIN.auth0.com/",
+  audience: 'https://movieanalyst.com'
 });
 
 var guard = function(req, res, next){
