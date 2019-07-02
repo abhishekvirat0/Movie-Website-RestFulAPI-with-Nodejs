@@ -9,8 +9,8 @@ app.set('views', __dirname + '/public/views/');
 
 app.use(express.static(__dirname + '/public'));
 
-var NON_INTERACTIVE_CLIENT_ID = 'a8DzB65gWKoT8Vbx623DNRriTP6H7EPT'
-var NON_INTERACTIVE_CLIENT_SECRET = 'yxGUDyfndylnLpghsqhq3skbV1yzj27rPz73LY3z8pY5w0TRs-Z8NdON8EV1bLan'
+var NON_INTERACTIVE_CLIENT_ID = 'CLIENT-ID'
+var NON_INTERACTIVE_CLIENT_SECRET = 'SECRET-CLIENT-ID'
 
 var authData = {
   client_id: NON_INTERACTIVE_CLIENT_ID,
