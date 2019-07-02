@@ -13,4 +13,4 @@ For the client type, select Non-Interactive Client and name it MovieAnalyst Webs
 As this is a new feature that is still in beta, you will be prompted to enable the API functionality. You can do so by simply flipping the switch and a new menu option titled “API’ will be available. Click on this new menu option to continue.
 Enable API Beta Feature
 
-# To be continued...
+# The project is in working phase..
